@@ -8,7 +8,7 @@
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 
-  <title>Web Design Challenge</title>
+  <title>Temperature</title>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown active">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             Plots
@@ -49,22 +49,18 @@
     <div class="row">
       <div class="col-sm-12 col-md-7">
         <div class="box">
-          <h1>Summary: Latitude vs. X</h1>
+          <h1>Max Temperature</h1>
           <hr>
-          <div class="col-6">
-            <img class="img-thumbnail" src="assets/images/Fig1.png" widht="40%"
+          <div class="col-12">
+            <img class="img-thumbnail" src="assets/images/Fig1.png" widht="50%"
               alt="Scatterplot of City Latitude VS Max Temperature">
           </div>
-          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
-            accomplish
-            this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities</p>
-          <p>After assembling the dataset, we used Matplotlip to plot various aspects of the weather vs, latitude.
-            Factors we
-            looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data
-            and
-            visualization created as part of the analysis, as well as explanations and descriptions of any trends and
-            correlations witnessed</p>
-        </div>
+          <p>As Expected, the weather becomes significantly warmer as one approaches the equator (0 Ged. Latitude).
+              More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of the 
+              year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year
+              this data was gathered</p>
+
+          </div>
       </div>
 
       <!-- Visualizations -->
@@ -73,24 +69,24 @@
           <h2>Visualizations</h1>
             <hr>
             <div class="row">
-              <div class="col-3 col-md-6">
+              <div class="col-4 col-md-6">
                 <a href="temperature.html"><img src="assets/images/Fig1.png" width="100%"
-                  alt="max temperature"></a>
-            </div>
+                    alt="max temperature"></a>
+              </div>
 
-            <div class="col-4 col-md-6">
-              <a href="humidity.html"><img src="assets/images/Fig2.png" width="100%"
-                  alt="humidity"></a>
-            </div>
+              <div class="col-4 col-md-6">
+                <a href="humidity.html"><img src="assets/images/Fig2.png" width="100%"
+                    alt="humidity"></a>
+              </div>
 
-            <div class="col-4 col-md-6">
-              <a href="cloudiness.html"><img src="assets/images/Fig3.png" width="100%"
-                  alt="cloudiness"></a>
-            </div>
+              <div class="col-4 col-md-6">
+                <a href="cloudiness.html"><img src="assets/images/Fig3.png" width="100%"
+                    alt="cloudiness"></a>
+              </div>
 
-            <div class="col-4 col-md-6">
-              <a href="windspeed.html"><img src="assets/images/Fig4.png" width="100%"
-                  alt="wind speed"></a>
+              <div class="col-4 col-md-6">
+                <a href="windspeed.html"><img src="assets/images/Fig4.png" width="100%"
+                    alt="wind speed"></a>
               </div>
 
             </div>
