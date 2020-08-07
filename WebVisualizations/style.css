@@ -1,10 +1,10 @@
-.navbar{
+.navbar {
     background-color: white;
     padding-top:0px;
     padding-bottom: 0px;
     }
 
-.navbar-brand{
+.navbar-brand {
     color: white;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
@@ -13,7 +13,7 @@
     margin-left: 10px; 
     }
     
-body{
+body {
     background-color: lightgray;
     }
 
@@ -23,7 +23,7 @@ body{
     padding-top: 40px;
     }
 
-.img-thumbnail{
+.img-thumbnail {
     float: left;
     border: none;
     }
@@ -35,7 +35,7 @@ h1, h2, h3 {
     text-align: left;
     }
 
-p{
+p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding:5px;
     }
@@ -45,19 +45,22 @@ p{
     padding: 25px;
 }
 
+.collapsable {
+    position: absolute;
+  }
 
 /* small screen adjustments*/
 @media(max-width:700px){
-    .navbar{
+    .navbar {
         background-color: teal;
         padding: inherit;   
     }
     
-    body{
+    body {
         background-color:white;
     }
     
-    .navbar-collapse{
+    .navbar-collapse {
         background-color: white;
     }
     
