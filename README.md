@@ -1,7 +1,7 @@
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
 ## Click below to My Web Visualization
-[Click here](aselvan8.github.io/Web-Design-Challenge/index.html)
+[Click here](Web-Design-Challenge.github.io/index.html)
 
 ## Background
 
